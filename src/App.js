@@ -1,21 +1,22 @@
-import logo from './logo.svg';
+import logo from './logo-devmind.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <p><img src={logo} className="App-logo" alt="logo" /> </p>
+      
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+        Welcome! This is my first React app!
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.devmind.ro/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Go to site
         </a>
       </header>
     </div>
